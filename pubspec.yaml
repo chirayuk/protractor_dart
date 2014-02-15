@@ -1,0 +1,9 @@
+name: dart-node
+version: 0.0.1
+authors:
+- Misko Hevery <misko@hevery.com>
+description: Dart in node experiment.
+environment:
+  sdk: '>=1.0.0'
+dependencies:
+  js: ">=0.2.0 <0.3.0"

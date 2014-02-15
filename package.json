@@ -1,0 +1,30 @@
+{
+  "name": "protractor_dart",
+  "description": "EXPERIMENTAL/DEMO: Write protractor specs in Dart.",
+  "version": "0.0.1",
+  "license" : "MIT",
+  "homepage": "https://github.com/chirayuk/protractor_dart",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chirayuk/protractor_dart.git"
+  },
+  "bin": {
+    "protractor": "bin/protractor_dart"
+  },
+  "scripts": {
+    "start": "node app/expressserver.js",
+    "test": "bin/protractor_dart test/conf.js"
+  },
+  "dependencies": {
+    "express": "~3.4.0",
+    "glob": ">=3.1.14",
+    "protractor": ">=0.18.1",
+    "q": ">=1.0.0",
+    "source-map-support": ">=0.2.5"
+  },
+  "author": "Julie Ralph <ju.ralph@gmail.com>",
+  "contributors": [
+    "Chirayu Krishnappa <chirayu@chirayuk.com>",
+    "Julie Ralph <ju.ralph@gmail.com>"
+  ]
+}
