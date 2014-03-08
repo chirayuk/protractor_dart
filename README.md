@@ -16,5 +16,5 @@ with the spec file translated to Dart.
 -   Start a selenium server at `localhost:4444`.  Refer the [Protractor
     docs](https://github.com/angular/protractor/#appendix-a-setting-up-a-standalone-selenium-server)
     for help.
--   Start the test application server with `node app/expresserver.js`
+-   Start the test application server with `node app/expressserver.js`
 -   Run the tests `./bin/protractor_dart test/conf.js`
