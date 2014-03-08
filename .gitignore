@@ -149,7 +149,7 @@ google3/build_log.txt
 .lock*
 
 # Ignore some Dart files
-/packages
+packages/
 *.dart.js.*
 *.dart.js
 *.dart.precompiled.js
