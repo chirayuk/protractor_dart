@@ -42,16 +42,3 @@ toDartArray(var arr) {
   arr.forEach((value, key, obj) => result[key] = value);
   return result;
 }
-
-
-var ckck_log = (() {
-  const X = const Object();
-  return (o1, [o2=X, o3=X, o4=X, o5=X, o6=X, o7=X, o8=X, o9=X, o10=X, o11=X, o12=X, o13=X, o14=X]) {
-    var args = [o1, o2, o3, o4, o5, o6, o7, o8, o9, o10, o11, o12, o13, o14];
-    while (args.length > 0 && identical(args.last, X)) {
-      args.removeLast();
-    }
-    Function.apply(context.protractor.ckck_log, args);
-  };
-})();
-

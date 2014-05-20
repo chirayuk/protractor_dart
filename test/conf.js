@@ -5,7 +5,6 @@ exports.config = {
   seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
 
   specs: [
-    // 'ckck_spec.dart',
     'animation_spec.dart',
     'hello_world_spec.dart',
     'todo_spec.dart'
