@@ -20,7 +20,7 @@
     "glob": ">=3.1.14",
     "protractor": ">=0.20.1",
     "q": ">=1.0.0",
-    "source-map-support": ">=0.2.5"
+    "source-map-support": "~0.2.6"
   },
   "author": "Julie Ralph <ju.ralph@gmail.com>",
   "contributors": [
