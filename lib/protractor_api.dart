@@ -16,17 +16,17 @@ var console = context.console;
 //   for 'exports.'
 var jasmine = context.jasmine;
 spyOn(obj, methodName) => context.spyOn(obj, methodName);
-it(desc, func) => context.it(desc, func);
-iit(desc, func) => context.iit(desc, func);
-xit(desc, func) => context.xit(desc, func);
+it(desc, func) => context.it(desc, ([optDone]) => func());
+iit(desc, func) => context.iit(desc, ([optDone]) => func()));
+xit(desc, func) => context.xit(desc, ([optDone]) => func()));
 expect(actual) => context.expect(actual);
 because(x) => context.because(x);
 runs(func) => context.runs(func);
 waits(timeout) => context.waits(timeout);
 waitsFor(latchFunction, optional_timeoutMessage, optional_timeout) =>
     context.waitsFor(latchFunction, optional_timeoutMessage, optional_timeout);
-beforeEach(beforeEachFunction) => context.beforeEach(beforeEachFunction);
-afterEach(afterEachFunction) => context.afterEach(afterEachFunction);
+beforeEach(beforeEachFunction) => context.beforeEach(([optDone]) => beforeEachFunction());
+afterEach(afterEachFunction) => context.afterEach(([optDone]) => afterEachFunction());
 describe(description, specDefinitions) =>
     context.describe(description, specDefinitions);
 ddescribe(description, specDefinitions) =>
