@@ -65,12 +65,15 @@ exports.config = {
     'todo_spec.dart'
   ],
 
-  capabilities: {
+  splitTestsBetweenCapabilities: true,
+
+  multiCapabilities: [{
     'browserName': 'chrome',
     'chromeOptions': {
       'binary': getDartiumBinary(),
-    }
-  },
+    },
+    count: 4
+  }],
 
   baseUrl: getBaseUrl(),
 
