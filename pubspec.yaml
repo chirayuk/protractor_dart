@@ -3,6 +3,7 @@ version: 0.0.1
 authors:
 - Chirayu Krishnappa <chirayu@chirayuk.com>
 description: Protractor for AngularDart
+homepage: http://github.com/chirayuk/protractor_dart
 environment:
   sdk: '>=1.3.0'
 dependencies:
