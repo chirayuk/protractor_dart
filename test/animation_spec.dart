@@ -19,7 +19,7 @@ main() {
   describe('animation example', () {
     beforeEach(() {
       protractor.getInstance().get('animation.html');
-      element(by.tagName("body")).enableAnimations(false);
+      element(by.tagName("body")).allowAnimations(false);
     });
 
     it('should start in about page', () {
