@@ -1,14 +1,12 @@
-# Protractor Dart DEMO
+# Protractor for AngularDart
 
-This is a work in progress to get
-[Protractor](http://github.com/angular/protractor) support for Dart.
-This demo demonstrates writing just the specs in Dart (only the Jasmine
-syntax is supported.)
+Write [Protractor](http://github.com/angular/protractor)
+end-to-end tests against your AngularDart applications using
+the Jasmine syntax.
 
-The goal is to eventually become a part of the main protractor
-framework.  It is currently a wrapper around protractor and includes a
-copy of the [protractor-demo](https://github.com/juliemr/protractor-demo)
-with the spec file translated to Dart.
+This depends on a fork of Protractor
+([protractor-dev](https://www.npmjs.org/package/protractor-dev))
+and is available on [pub](https://pub.dartlang.org/packages/protractor).
 
 ## Running the demo
 -   `npm install`

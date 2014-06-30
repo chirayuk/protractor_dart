@@ -1,10 +1,10 @@
 name: protractor
-version: 0.0.2
+version: 0.0.3
 authors:
 - Chirayu Krishnappa <chirayu@chirayuk.com>
 description: Protractor for AngularDart
 homepage: http://github.com/chirayuk/protractor_dart
 environment:
-  sdk: '>=1.3.0'
+  sdk: '>=1.5.0'
 dependencies:
   js: ">=0.2.0 <0.3.0"
