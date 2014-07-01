@@ -1,7 +1,7 @@
 {
   "name": "protractor-dart",
   "description": "Webdriver E2E test wrapper for AngularDart.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license" : "MIT",
   "homepage": "https://github.com/chirayuk/protractor_dart",
   "repository": {
@@ -18,7 +18,7 @@
   "dependencies": {
     "express": "~3.4.0",
     "glob": ">=3.1.14",
-    "protractor-dev": "0.23.4",
+    "protractor-dev": "0.23.5",
     "q": ">=1.0.0",
     "source-map-support": "~0.2.6"
   },
