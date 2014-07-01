@@ -18,7 +18,7 @@
   "dependencies": {
     "express": "~3.4.0",
     "glob": ">=3.1.14",
-    "protractor-dev": "0.23.3",
+    "protractor-dev": "0.23.4",
     "q": ">=1.0.0",
     "source-map-support": "~0.2.6"
   },
