@@ -4,9 +4,14 @@ Write [Protractor](http://github.com/angular/protractor)
 end-to-end tests against your AngularDart applications using
 the Jasmine syntax.
 
-This depends on a fork of Protractor
-([protractor-dev](https://www.npmjs.org/package/protractor-dev))
-and is available on [pub](https://pub.dartlang.org/packages/protractor).
+Your Dart could would depend on the [protractor](https://pub.dartlang.org/packages/protractor)
+pub package.  For the runner, you would depend on the
+[protractor-dart](https://www.npmjs.org/package/protractor-dart)
+npm package.  You should depend on the same version number
+of both packages to keep the Dart and the JS code in sync. 
+(FYI, [protractor-dart](https://www.npmjs.org/package/protractor-dart)
+internally depends on a depends a fork of Protractor,
+[protractor-dart](https://www.npmjs.org/package/protractor-dart))
 
 ## Running the demo
 -   `npm install`
