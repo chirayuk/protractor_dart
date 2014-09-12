@@ -2,7 +2,7 @@
  * Environment Variables affecting this config.
  * --------------------------------------------
  *
- * DARTIUM: The full path to the Dartium binary.
+ * DARTIUM_BIN: The full path to the Dartium binary.
  *
  * NGDART_EXAMPLE_BASEURL: Overrides the default baseUrl to one of your
  *     choosing.  (The default is http://localhost:8080 which is the
@@ -30,12 +30,12 @@ function getBaseUrl() {
 
 function getDartiumBinary() {
   var ensure = function(condition) {
-    if (!condition) throw "Unable to locate Dartium.  Please set the DARTIUM environment variable.";
+    if (!condition) throw "Unable to locate Dartium.  Please set the DARTIUM_BIN environment variable.";
   };
 
-  // DARTIUM is set by scripts/env.sh for Travis.
-  if (env.DARTIUM) {
-    return env.DARTIUM;
+  // DARTIUM_BIN is set by scripts/env.sh for Travis.
+  if (env.DARTIUM_BIN) {
+    return env.DARTIUM_BIN;
   }
   var platform = require('os').platform();
   var DART_SDK = env.DART_SDK;
